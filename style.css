@@ -1,0 +1,49 @@
+/* entire html body */
+body{
+	font-family: "Mandali";
+	box-sizing: border-box;
+}
+
+/* navigation bar */
+.navbar-brand {
+	font-family: "Gloria Hallelujah";
+}
+.nav-link .active a:hover{
+	background: rgba(238, 112, 105, 1);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	background-clip: text;
+}
+.navbar-nav a:hover{
+	background:rgba(238, 112, 105, 1);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+/* jumbotron */
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.jumbotron{
+	background: white;
+	padding-top:15em;
+}
+.jumbotron .display-4{
+	font-family: "Gloria Hallelujah";
+	font-size: 48px;
+}
+.lead{
+	font-size:24px;
+}
+.fas .fa-angle-down{
+	size:50em;
+}
