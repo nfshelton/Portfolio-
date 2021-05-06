@@ -26,6 +26,7 @@ body{
 span {
   border-right: .05em solid;
   animation: caret 1s steps(1) infinite;
+
 }
 
 
@@ -153,10 +154,21 @@ section h1 {
 /******************* projects section **********************/
 
 /* project images */
-
-
-
-
+.card{
+	border: none;
+}
+.card-title{
+	font-size:5vw;
+}
+.card-text{
+	font-size:2vw;
+}
+.card-body{
+	padding-top:12%;
+}
+.card-link{
+	font-size:1.7vw;
+}
 
 
 
