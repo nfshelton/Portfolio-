@@ -212,54 +212,72 @@ section h1 {
 
 /*********(now entering the...) CONTACT PAGE * CONTACT PAGE * CONTACT PAGE * CONTACT PAGE * CONTACT PAGE * CONTACT PAGE * **********************/
 
-.contact-form{
-	max-width: 800px;
-	margin: 50px auto;
-	position: relative;
-	box-shadow:0 10px 30px 0px rgba(0,0,0,0.1);
-	padding: 30px;
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px rgba(143, 144, 237, 1); 
 }
 
-.contact-form .title{
-	text-align: center;
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: rgba(143, 144, 237, 1);
 }
 
-.form-field{
-	position: relative;
-	margin: 32px 0;
+.wrapper .input_field{
+  margin-bottom: 10px;
 }
 
-.contact-form .input-text:focus{
-	outline: none;
-}
-.contact-form .label{
-	position: absolute;
-	left:20px;
-	bottom: 11px;
-	font-size: 18px;
-	font-weight: 400;
-	color:rgba(238, 112, 105, 1);
-	cursor: text;
-	transition: transform 0.2s ease-in-out;
-}
-.contact-form .submit-btn{
-	display: inline-block;
-	background-image: linear-gradient(125deg, #a72879, #064497);
-	color:#fff;
-	letter-spacing: 2px;
-	font-size: 16px;
-	padding: 8px 16px;
-	border:none;
-	width:200px;
-	cursor: pointer;
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
 }
 
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
 
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: rgba(143, 144, 237, 1);
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
 
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
 
-
-
-
+.h1-responsive{
+	font-size:50px;
+	color: black;
+}
 
 
 

@@ -48,54 +48,36 @@
 
     <!----------------------------------------- title of Contact Pg area------------------------------------------>
     <div class="contact-me-page">
-      <div class="title">
+      <div class="contact-title">
         <h2 class="h1-responsive text-center mt-5">Contact Me</h2>
         <p class="text-center">Feel free to reach out! Let's keep in touch :)</p>
       </div>
     
-    
       <!---------- actual Contact form ----------->
   
-        <div class="col-lg-6">
-          <form id="contactform">
-          <div class="container">
-            <div class="contact-form row">
-
-              <div class="form-field col-mid-6">          
-                  <input type="text" name="name" class="input-text" id="name">
-                  <label for="name" class="label">Your Name</label>
-              </div>
-
-              <div class="form-field col-mid-6">      
-                  <input type="text" name="email" class="input-text" id="email">
-                  <label for="email" class="label">Email</label>         
-              </div>
-
-              <div class="form-field col-mid-6">          
-                  <input type="text" name="company" class="input-text" id="company">
-                  <label for="company" class="label">Company</label>          
-              </div>
-
-              <div class="form-field col-mid-6">
-                  <input type="text" name="phone" class="input-text" id="phone">
-                  <label for="phone" class="label">Phone Number</label>            
-              </div>
-
-              <div class="form-field col-mid-12">          
-                  <input type="text" name="message" class="input-text" id="message">
-                  <label for="message" class="label">Message</label>
-              </div>
-
-              <div class="form-field col-lg-6">      
-                  <input type="submit" name="submit" class="submit-btn" id="message" value="submit">
-              </div>
-
-            </div>
+      <div class="wrapper">
+        <div id="error_message"></div>
+        <form action="" id="myform" onsubmit = "return validate();">
+          <div class="input_field">
+              <input type="text" placeholder="Name" id="name">
           </div>
-          </form>
-        </div>
-   
-
+          <div class="input_field">
+              <input type="text" placeholder="Subject" id="subject">
+          </div>
+          <div class="input_field">
+              <input type="text" placeholder="Phone" id="phone">
+          </div>
+          <div class="input_field">
+              <input type="text" placeholder="Email" id="email">
+          </div>
+          <div class="input_field">
+              <textarea placeholder="Message" id="message"></textarea>
+          </div>
+          <div class="btn col-lg-12">
+              <input type="submit">
+          </div>
+        </form>
+      </div>
              
 
           
