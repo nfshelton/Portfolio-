@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
-  var dataText = [ "Hi my name is Noni!", "Welcome to my portfolio :)"];
+  var dataText = [ "Hi my name is Noni!", "Welcome to my portfolio :) "];
   
   // type one text in the typwriter
   // keeps calling itself until the text is finished
@@ -31,6 +31,10 @@ document.addEventListener('DOMContentLoaded',function(event){
         }, 20000);
      }
      // check if dataText[i] exists
+    if (i >= dataText.length) {
+      i = 0;
+    }
+
     if (i < dataText[i].length) {
       // text exists! start typewriter animation
      typeWriter(dataText[i], 0, function(){
@@ -43,13 +47,8 @@ document.addEventListener('DOMContentLoaded',function(event){
   StartTextAnimation(0);
 });
 
-//SCROLL ICON
-$(function() {
-  $('a[href*=#]').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-  });
-});
+
+
 
 ////////////////////////////     CONTACT ME PAGE     ////////////////////////
 function validate(){

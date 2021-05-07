@@ -44,16 +44,16 @@ span {
 /******************* scroll icon **********************/
 section {
   position: relative;
-  width: 100%;
-  height: 100%;
+ /* width: 100%;
+  height: 100%;*/
 }
 section::after {
   position: absolute;
   bottom: 0;
   left: 0;
   content: '';
-  width: 100%;
-  height: 80%;
+/*  width: 100%;
+  height: 80%;*/
 }
 section h1 {
   position: absolute;
@@ -174,31 +174,27 @@ section h1 {
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
       transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
   cursor: pointer;
-
 }
-
 .card-image:hover{
 	border-style: black;
      transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
   	filter:brightness(1.1);
 }
-.card-image-trial{
-	border-style:dotted;
-    border-radius: 15px;
-    background: #fff;
-    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-  cursor: pointer;
-}
-.card-image-trial:hover{
-	border-style: black;
-    transform: scale(1.05);
-  	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-  	filter:brightness(1.1)
-}
 
 
+/******************* projects section animation *********************
+
+.border-debug{
+	border-style: dotted;
+}
+.fade-in{
+	opacity: 0;
+	transition: opacity 250ms ease-in;
+}
+.fade-in .appear{
+	opacity: 1;
+}
 
 /*********(now entering the...) COLLAB PAGE * COLLAB PAGE * COLLAB PAGE * COLLAB PAGE * COLLAB PAGE * COLLAB PAGE * **********************/
 
