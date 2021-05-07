@@ -203,6 +203,18 @@ section h1 {
 	background-color:rgba(217, 207, 179, 0.5);
 	border-radius:0px 15px 15px 0px;
 }
+.carousel-control-prev-icon{
+	color:black;
+}
+.carousel-control-next{
+	color:black;
+	width:100px;
+}
+.hierarchy-section{
+	padding-top:5em;
+}
+
+
 
 /*********(now entering the...) CONTACT PAGE * CONTACT PAGE * CONTACT PAGE * CONTACT PAGE * CONTACT PAGE * CONTACT PAGE * **********************/
 
