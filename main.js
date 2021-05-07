@@ -31,9 +31,9 @@ document.addEventListener('DOMContentLoaded',function(event){
         }, 20000);
      }
      // check if dataText[i] exists
-    if (i >= dataText.length) {
-      i = 0;
-    }
+    // if (i >= dataText.length) {
+    //   i = 0;
+    // }
 
     if (i < dataText[i].length) {
       // text exists! start typewriter animation
