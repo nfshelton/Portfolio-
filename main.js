@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
-  var dataText = [ "Hi my name is Noni!", "Welcome to my portfolio :) "];
+  var dataText = [ "Hi my name is Noni!", "Welcome to my portfolio :) ", "random", "text"];
   
   // type one text in the typwriter
   // keeps calling itself until the text is finished
