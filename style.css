@@ -217,7 +217,6 @@ section h1 {
 	padding-left:10em;
 }
 .embedded-video{
-	video {
   margin-left: 50vw;
   transform: translate(-50%);
 
@@ -296,6 +295,31 @@ section h1 {
 .about-img{
 	border-radius:dotted;
 }
+
+/*********(now entering the...) YOU WILL PAGE * YOU WILL PAGE * YOU WILL PAGE * YOU WILL PAGE * **********************/
+
+#you-will-jumbotron{
+	background-color: rgba(118, 156, 229, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
