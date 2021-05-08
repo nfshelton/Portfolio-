@@ -1,0 +1,325 @@
+/* entire html body */
+body{
+	font-family: "Mandali";
+	box-sizing: border-box;
+
+}
+
+/******************* navigation bar ******************/
+.navbar-brand {
+	font-family: "Gloria Hallelujah";
+}
+.nav-link .active a:hover{
+	background: rgba(238, 112, 105, 1);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	background-clip: text;
+}
+.navbar-nav a:hover{
+	background:rgba(238, 112, 105, 1);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+/******************* jumbotron **********************/
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+.jumbotron{
+	background: white;
+	padding-top:15em;
+}
+.jumbotron .display-4{
+	font-family: "Gloria Hallelujah";
+	font-size: 48px;
+}
+.lead{
+	font-size:24px;
+	animation-duration: 7s;
+}
+
+/******************* scroll icon **********************/
+section {
+  position: relative;
+ /* width: 100%;
+  height: 100%;*/
+}
+section::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+/*  width: 100%;
+  height: 80%;*/
+}
+section h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: black;
+  font : normal 300 64px/1 'Mandali', sans-serif;
+  text-align: center;
+  white-space: nowrap;
+}
+.demo a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: black;
+  font : normal 400 20px/1 'Mandali', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
+
+#section10 a {
+	padding-top: 60px;
+}
+#section10 a span {
+	position: absolute;
+	top: .5px;
+	left: 50%;
+	width: 30px;
+	height: 50px;
+	margin-left: -15px;
+	border: 2px solid black;
+	border-radius: 50px;
+	box-sizing: border-box;
+}
+#section10 a span::before {
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	content: '';
+	width: 6px;
+	height: 6px;
+	margin-left: -3px;
+	background-color: black;
+	border-radius: 100%;
+	-webkit-animation: sdb10 3s infinite;
+	animation: sdb10 3s infinite;
+	box-sizing: border-box;
+}
+@-webkit-keyframes sdb10 {
+	0% {
+		-webkit-transform: translate(0, 0);
+		opacity: 0;
+	}
+	40% {
+		opacity: 1;
+	}
+	80% {
+		-webkit-transform: translate(0, 20px);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes sdb10 {
+	0% {
+		transform: translate(0, 0);
+		opacity: 0;
+	}
+	40% {
+		opacity: 1;
+	}
+	80% {
+		transform: translate(0, 20px);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+/******************* projects section **********************/
+
+/* project images */
+.card{
+	border: none;
+}
+.card-img-top{
+	border-radius: 15px;
+}
+.card-title{
+	font-size:5vw;
+}
+.card-text{
+	font-size:2vw;
+}
+.card-body{
+	padding-top:12%;
+}
+.card-link{
+	font-size:1.7vw;
+}
+
+.card-image{
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+}
+.card-image:hover{
+	border-style: black;
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  	filter:brightness(1.1);
+}
+
+
+/*********(now entering the...) COLLAB PAGE * COLLAB PAGE * COLLAB PAGE * COLLAB PAGE * COLLAB PAGE * COLLAB PAGE * *********************/
+
+.jumbotron-collab-page{
+	background-color: rgba(238, 112, 105, 1);
+	border-radius:15px;
+}
+.inside-title-jumbotron{
+	--animate-delay: 4s;
+}
+.problem-section-left{
+	background-color:rgba(217, 207, 179, 0.5);
+	border-radius:15px 0px 0px 15px;
+}
+.problem-section-middle{
+	background-color:rgba(217, 207, 179, 0.5);
+}
+.problem-section-right{
+	background-color:rgba(217, 207, 179, 0.5);
+	border-radius:0px 15px 15px 0px;
+}
+.carousel-control-prev-icon{
+	color:black;
+}
+.carousel-control-next{
+	color:black;
+	width:100px;
+}
+.hierarchy-section{
+	padding-top:5em;
+}
+.lofi-img-main{
+	padding-left:10em;
+}
+.embedded-video{
+  margin-left: 50vw;
+  transform: translate(-50%);
+
+}
+
+
+/*********(now entering the...) CONTACT PAGE * CONTACT PAGE * CONTACT PAGE * CONTACT PAGE * CONTACT PAGE * CONTACT PAGE * **********************/
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: rgba(143, 144, 237, 1);
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: rgba(143, 144, 237, 1);
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+.h1-responsive{
+	font-size:50px;
+	color: black;
+}
+
+/*********(now entering the...) ABOUT PAGE * ABOUT PAGE * ABOUT PAGE * ABOUT PAGE * ABOUT PAGE * ABOUT PAGE * **********************/
+
+.about-img{
+	border-radius:dotted;
+}
+
+/*********(now entering the...) YOU WILL PAGE * YOU WILL PAGE * YOU WILL PAGE * YOU WILL PAGE * **********************/
+
+#you-will-jumbotron{
+	background-color: rgba(118, 156, 229, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
