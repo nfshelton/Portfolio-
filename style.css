@@ -213,7 +213,15 @@ section h1 {
 .hierarchy-section{
 	padding-top:5em;
 }
+.lofi-img-main{
+	padding-left:10em;
+}
+.embedded-video{
+	video {
+  margin-left: 50vw;
+  transform: translate(-50%);
 
+}
 
 
 /*********(now entering the...) CONTACT PAGE * CONTACT PAGE * CONTACT PAGE * CONTACT PAGE * CONTACT PAGE * CONTACT PAGE * **********************/
