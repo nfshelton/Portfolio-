@@ -6,3 +6,5 @@ https://codepen.io/RajRajeshDn/pen/QRjwpG
 
 https://css-tricks.com/snippets/css/typewriter-effect/
 
+note: clicking Noni also takes you back to the home page!
+
